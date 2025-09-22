@@ -11,6 +11,6 @@ public class Triangulo extends Forma {
 
     @Override
     public void mostrar() {
-        System.out.println("Triangulo "+super.getCor().pintar());
+        System.out.println("Triangulo "+getCor().pintar());
     }
 }

@@ -9,9 +9,13 @@ public class FactoryMain {
 
         //Logistica e a fabrica e a logisticaAerea e logisticaMarinha suas implementacoes que o cliente escolhe
 
-        Logistica logistica = new LogisticaAerea();
-        logistica.planejarEntrega();
+        System.out.println("==============LOGISTICA AÉRA===============");
+        Logistica logisticaAerea = new LogisticaAerea();
+        logisticaAerea.planejarEntrega();
 
+        System.out.println("\n");
+
+        System.out.println("==============LOGISTICA MARINHA===============");
         Logistica logisticaMarinha = new LogisticaMarinha();
         logisticaMarinha.planejarEntrega();
     }

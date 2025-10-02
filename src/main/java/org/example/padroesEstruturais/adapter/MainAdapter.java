@@ -11,8 +11,10 @@ public class MainAdapter {
 
         InfoPais infoPais = new InfoPaisAdapter();
 
-        String nomePais = infoPais.getNome("76");
+        String nomePais = infoPais.getNome(76);
 
-        System.out.println(nomePais);
+        System.out.println("Fazendo a chamada da API pelo adapter... \n");
+
+        System.out.println("Nome do país: " + nomePais);
     }
 }

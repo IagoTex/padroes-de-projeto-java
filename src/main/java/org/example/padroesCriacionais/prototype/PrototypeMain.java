@@ -8,7 +8,7 @@ public class PrototypeMain {
         Predio original = new Predio(10, 10, "A");
         Predio copy = original.copy();
 
-        System.out.println(original);
-        System.out.println(copy);
+        System.out.println("Objeto original: " + original);
+        System.out.println("Objeto cópia: " + copy);
     }
 }

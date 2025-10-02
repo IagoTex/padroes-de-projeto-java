@@ -4,6 +4,6 @@ public class Aviao implements Transporte {
 
     @Override
     public void entregar() {
-        System.out.println("Entrega feita via Aviao");
+        System.out.println("Entrega feita via Avião");
     }
 }

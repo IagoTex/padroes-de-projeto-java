@@ -11,6 +11,6 @@ public class Circulo extends Forma {
 
     @Override
     public void mostrar() {
-       System.out.println("Circulo "+ getCor().pintar());
+       System.out.println("Círculo "+ getCor().pintar());
     }
 }

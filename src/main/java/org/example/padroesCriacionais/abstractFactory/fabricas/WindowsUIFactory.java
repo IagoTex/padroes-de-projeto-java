@@ -13,7 +13,7 @@ public class WindowsUIFactory implements UIAbstractFactory {
 
     @Override
     public WindowsWindow criarJanela(String texto) {
-        System.out.println("Acaba de ser criado uma Janela Linux com o title: " + texto);
+        System.out.println("Acaba de ser criado uma Janela Windows com o title: " + texto);
         return new WindowsWindow(texto);
     }
 }

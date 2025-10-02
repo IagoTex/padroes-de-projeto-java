@@ -4,5 +4,5 @@ import java.io.IOException;
 
 public interface InfoPais {
 
-    String getNome(String idPais) throws IOException, InterruptedException;
+    String getNome(Integer idPais) throws IOException, InterruptedException;
 }
